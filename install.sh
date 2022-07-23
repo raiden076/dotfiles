@@ -29,4 +29,4 @@ pwd
 rm ~/.zshrc
 cp .zshrc ~/
 cp .aliases
-
+brew install thefuck
