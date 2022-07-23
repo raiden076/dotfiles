@@ -131,3 +131,4 @@ fpath=(~/.zsh.d/ $fpath)
 
 eval $(thefuck --alias)
 
+source ~/.aliases
