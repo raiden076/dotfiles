@@ -121,14 +121,10 @@ alias upg="sudo apt update ; sudo apt dist-upgrade -y"
 alias yt="pipe-viewer"
 alias ani="ani-cli"
 alias flix="bashflix"
-alias fk="fuck"
+source ~/.aliases
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 fpath=(~/.zsh.d/ $fpath)
 fpath=(~/.zsh.d/ $fpath)
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #export PATH=$PATH:'/home/arkapravo/.local/bin'
-
-eval $(thefuck --alias)
-
-source ~/.aliases
