@@ -146,3 +146,13 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+
+# Md and cd in dir
+dirfn() {
+    #do things with parameters like $1 such as
+    md "$1" 
+    cd "$1"
+}
+
+alias d="dirfn " 
